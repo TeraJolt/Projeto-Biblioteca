@@ -1,0 +1,14 @@
+E:\ADS\ADS IV\PLVIII\Exercicios e tarefas\Exercicio Final\Projeto-Biblioteca\Projeto-Biblioteca\bin\Debug\Projeto-Biblioteca.exe.config
+E:\ADS\ADS IV\PLVIII\Exercicios e tarefas\Exercicio Final\Projeto-Biblioteca\Projeto-Biblioteca\bin\Debug\Projeto-Biblioteca.exe
+E:\ADS\ADS IV\PLVIII\Exercicios e tarefas\Exercicio Final\Projeto-Biblioteca\Projeto-Biblioteca\bin\Debug\Projeto-Biblioteca.pdb
+E:\ADS\ADS IV\PLVIII\Exercicios e tarefas\Exercicio Final\Projeto-Biblioteca\Projeto-Biblioteca\obj\Debug\Projeto-Biblioteca.csproj.AssemblyReference.cache
+E:\ADS\ADS IV\PLVIII\Exercicios e tarefas\Exercicio Final\Projeto-Biblioteca\Projeto-Biblioteca\obj\Debug\Projeto_Biblioteca.Properties.Resources.resources
+E:\ADS\ADS IV\PLVIII\Exercicios e tarefas\Exercicio Final\Projeto-Biblioteca\Projeto-Biblioteca\obj\Debug\Projeto-Biblioteca.csproj.GenerateResource.cache
+E:\ADS\ADS IV\PLVIII\Exercicios e tarefas\Exercicio Final\Projeto-Biblioteca\Projeto-Biblioteca\obj\Debug\Projeto-Biblioteca.csproj.CoreCompileInputs.cache
+E:\ADS\ADS IV\PLVIII\Exercicios e tarefas\Exercicio Final\Projeto-Biblioteca\Projeto-Biblioteca\obj\Debug\Projeto-Biblioteca.exe
+E:\ADS\ADS IV\PLVIII\Exercicios e tarefas\Exercicio Final\Projeto-Biblioteca\Projeto-Biblioteca\obj\Debug\Projeto-Biblioteca.pdb
+E:\ADS\ADS IV\PLVIII\Exercicios e tarefas\Exercicio Final\Projeto-Biblioteca\Projeto-Biblioteca\obj\Debug\Projeto_Biblioteca.Login.resources
+E:\ADS\ADS IV\PLVIII\Exercicios e tarefas\Exercicio Final\Projeto-Biblioteca\Projeto-Biblioteca\obj\Debug\Projeto_Biblioteca.Dashboard.resources
+E:\ADS\ADS IV\PLVIII\Exercicios e tarefas\Exercicio Final\Projeto-Biblioteca\Projeto-Biblioteca\obj\Debug\Projeto_Biblioteca.GestEmprestimos.resources
+E:\ADS\ADS IV\PLVIII\Exercicios e tarefas\Exercicio Final\Projeto-Biblioteca\Projeto-Biblioteca\obj\Debug\Projeto_Biblioteca.GestCatalogos.resources
+E:\ADS\ADS IV\PLVIII\Exercicios e tarefas\Exercicio Final\Projeto-Biblioteca\Projeto-Biblioteca\obj\Debug\Projeto_Biblioteca.GestAssociado.resources
