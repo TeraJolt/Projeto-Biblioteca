@@ -115,14 +115,15 @@ namespace Projeto_Biblioteca
             // 
             // tabPage1
             // 
+            this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(248)))), ((int)(((byte)(240)))));
             this.tabPage1.Controls.Add(this.tableLayoutPanel1);
+            this.tabPage1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(762, 387);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Dados do Livro";
-            this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel1
             // 
@@ -188,7 +189,7 @@ namespace Projeto_Biblioteca
             this.tableLayoutPanel2.Controls.Add(this.label4, 0, 3);
             this.tableLayoutPanel2.Controls.Add(this.label5, 0, 4);
             this.tableLayoutPanel2.Controls.Add(this.label1, 0, 0);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(7, 26);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(8, 27);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 6;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
@@ -197,14 +198,14 @@ namespace Projeto_Biblioteca
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(463, 241);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(464, 242);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
             // autorDados
             // 
             this.autorDados.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.autorDados.AutoSize = true;
-            this.autorDados.Location = new System.Drawing.Point(234, 170);
+            this.autorDados.Location = new System.Drawing.Point(235, 170);
             this.autorDados.Name = "autorDados";
             this.autorDados.Size = new System.Drawing.Size(226, 20);
             this.autorDados.TabIndex = 9;
@@ -215,7 +216,7 @@ namespace Projeto_Biblioteca
             // 
             this.tituloDados.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.tituloDados.AutoSize = true;
-            this.tituloDados.Location = new System.Drawing.Point(234, 10);
+            this.tituloDados.Location = new System.Drawing.Point(235, 10);
             this.tituloDados.Name = "tituloDados";
             this.tituloDados.Size = new System.Drawing.Size(226, 20);
             this.tituloDados.TabIndex = 5;
@@ -226,7 +227,7 @@ namespace Projeto_Biblioteca
             // 
             this.editoraDados.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.editoraDados.AutoSize = true;
-            this.editoraDados.Location = new System.Drawing.Point(234, 130);
+            this.editoraDados.Location = new System.Drawing.Point(235, 130);
             this.editoraDados.Name = "editoraDados";
             this.editoraDados.Size = new System.Drawing.Size(226, 20);
             this.editoraDados.TabIndex = 8;
@@ -237,7 +238,7 @@ namespace Projeto_Biblioteca
             // 
             this.locEdicaoDados.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.locEdicaoDados.AutoSize = true;
-            this.locEdicaoDados.Location = new System.Drawing.Point(234, 90);
+            this.locEdicaoDados.Location = new System.Drawing.Point(235, 90);
             this.locEdicaoDados.Name = "locEdicaoDados";
             this.locEdicaoDados.Size = new System.Drawing.Size(226, 20);
             this.locEdicaoDados.TabIndex = 7;
@@ -248,7 +249,7 @@ namespace Projeto_Biblioteca
             // 
             this.isbnDados.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.isbnDados.AutoSize = true;
-            this.isbnDados.Location = new System.Drawing.Point(234, 50);
+            this.isbnDados.Location = new System.Drawing.Point(235, 50);
             this.isbnDados.Name = "isbnDados";
             this.isbnDados.Size = new System.Drawing.Size(226, 20);
             this.isbnDados.TabIndex = 6;
@@ -261,7 +262,7 @@ namespace Projeto_Biblioteca
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(3, 50);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(225, 20);
+            this.label2.Size = new System.Drawing.Size(226, 20);
             this.label2.TabIndex = 1;
             this.label2.Text = "ISBN:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -272,7 +273,7 @@ namespace Projeto_Biblioteca
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(3, 90);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(225, 20);
+            this.label3.Size = new System.Drawing.Size(226, 20);
             this.label3.TabIndex = 2;
             this.label3.Text = "Local de Edição:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -283,7 +284,7 @@ namespace Projeto_Biblioteca
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(3, 130);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(225, 20);
+            this.label4.Size = new System.Drawing.Size(226, 20);
             this.label4.TabIndex = 3;
             this.label4.Text = "Editora:";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -294,7 +295,7 @@ namespace Projeto_Biblioteca
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(3, 170);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(225, 20);
+            this.label5.Size = new System.Drawing.Size(226, 20);
             this.label5.TabIndex = 4;
             this.label5.Text = "Autor:";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -305,7 +306,7 @@ namespace Projeto_Biblioteca
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(3, 10);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(225, 20);
+            this.label1.Size = new System.Drawing.Size(226, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Titulo do Livro:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -332,11 +333,11 @@ namespace Projeto_Biblioteca
             this.tableLayoutPanel5.Controls.Add(this.label7, 0, 0);
             this.tableLayoutPanel5.Controls.Add(this.qtdeExemplaresAdicionais, 1, 0);
             this.tableLayoutPanel5.Controls.Add(this.btnOkAcrescentarExemplar, 2, 0);
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(7, 25);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(8, 24);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 1;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(463, 48);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(464, 48);
             this.tableLayoutPanel5.TabIndex = 0;
             // 
             // label7
@@ -363,9 +364,9 @@ namespace Projeto_Biblioteca
             // 
             this.btnOkAcrescentarExemplar.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.btnOkAcrescentarExemplar.AutoSize = true;
-            this.btnOkAcrescentarExemplar.Location = new System.Drawing.Point(378, 9);
+            this.btnOkAcrescentarExemplar.Location = new System.Drawing.Point(379, 3);
             this.btnOkAcrescentarExemplar.Name = "btnOkAcrescentarExemplar";
-            this.btnOkAcrescentarExemplar.Size = new System.Drawing.Size(82, 30);
+            this.btnOkAcrescentarExemplar.Size = new System.Drawing.Size(82, 42);
             this.btnOkAcrescentarExemplar.TabIndex = 7;
             this.btnOkAcrescentarExemplar.Text = "Ok";
             this.btnOkAcrescentarExemplar.UseVisualStyleBackColor = true;
@@ -386,8 +387,8 @@ namespace Projeto_Biblioteca
             this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 3;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 44F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 44F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 45F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 45F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel3.Size = new System.Drawing.Size(256, 369);
             this.tableLayoutPanel3.TabIndex = 6;
@@ -412,9 +413,9 @@ namespace Projeto_Biblioteca
             this.btnPesquisaTituloLivro.BackColor = System.Drawing.Color.Transparent;
             this.btnPesquisaTituloLivro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnPesquisaTituloLivro.Image = global::Projeto_Biblioteca.Properties.Resources.search;
-            this.btnPesquisaTituloLivro.Location = new System.Drawing.Point(215, 47);
+            this.btnPesquisaTituloLivro.Location = new System.Drawing.Point(215, 48);
             this.btnPesquisaTituloLivro.Name = "btnPesquisaTituloLivro";
-            this.btnPesquisaTituloLivro.Size = new System.Drawing.Size(38, 38);
+            this.btnPesquisaTituloLivro.Size = new System.Drawing.Size(38, 39);
             this.btnPesquisaTituloLivro.TabIndex = 4;
             this.btnPesquisaTituloLivro.UseVisualStyleBackColor = false;
             this.btnPesquisaTituloLivro.Click += new System.EventHandler(this.btnPesquisaTituloLivro_Click);
@@ -424,32 +425,36 @@ namespace Projeto_Biblioteca
             this.listTituloLivro.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.listTituloLivro.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.listTituloLivro.FormattingEnabled = true;
             this.listTituloLivro.ItemHeight = 20;
-            this.listTituloLivro.Location = new System.Drawing.Point(3, 91);
+            this.listTituloLivro.Location = new System.Drawing.Point(3, 93);
             this.listTituloLivro.Name = "listTituloLivro";
-            this.listTituloLivro.Size = new System.Drawing.Size(206, 264);
+            this.listTituloLivro.Size = new System.Drawing.Size(206, 262);
             this.listTituloLivro.TabIndex = 5;
             this.listTituloLivro.SelectedIndexChanged += new System.EventHandler(this.listTituloLivro_SelectedIndexChanged);
             // 
             // txtTituloLivro
             // 
             this.txtTituloLivro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtTituloLivro.Location = new System.Drawing.Point(3, 53);
+            this.txtTituloLivro.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtTituloLivro.Location = new System.Drawing.Point(3, 54);
             this.txtTituloLivro.Name = "txtTituloLivro";
             this.txtTituloLivro.Size = new System.Drawing.Size(206, 26);
             this.txtTituloLivro.TabIndex = 2;
+            this.txtTituloLivro.TextChanged += new System.EventHandler(this.txtTituloLivro_TextChanged);
             // 
             // tabPage2
             // 
+            this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(248)))), ((int)(((byte)(240)))));
             this.tabPage2.Controls.Add(this.groupBox3);
+            this.tabPage2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(762, 387);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Adicionar Livro";
-            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // groupBox3
             // 
@@ -485,7 +490,7 @@ namespace Projeto_Biblioteca
             this.tableLayoutPanel6.Controls.Add(this.txtIsbnAdd, 1, 1);
             this.tableLayoutPanel6.Controls.Add(this.txtLocalEdicaoAdd, 1, 2);
             this.tableLayoutPanel6.Controls.Add(this.tableLayoutPanel7, 1, 6);
-            this.tableLayoutPanel6.Location = new System.Drawing.Point(7, 26);
+            this.tableLayoutPanel6.Location = new System.Drawing.Point(8, 26);
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
             this.tableLayoutPanel6.RowCount = 8;
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
@@ -494,9 +499,9 @@ namespace Projeto_Biblioteca
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 49F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(737, 346);
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(736, 346);
             this.tableLayoutPanel6.TabIndex = 0;
             // 
             // label13
@@ -505,7 +510,7 @@ namespace Projeto_Biblioteca
             this.label13.AutoSize = true;
             this.label13.Location = new System.Drawing.Point(3, 50);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(215, 20);
+            this.label13.Size = new System.Drawing.Size(214, 20);
             this.label13.TabIndex = 1;
             this.label13.Text = "ISBN:";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -516,7 +521,7 @@ namespace Projeto_Biblioteca
             this.label14.AutoSize = true;
             this.label14.Location = new System.Drawing.Point(3, 90);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(215, 20);
+            this.label14.Size = new System.Drawing.Size(214, 20);
             this.label14.TabIndex = 2;
             this.label14.Text = "Local de Edição:";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -527,7 +532,7 @@ namespace Projeto_Biblioteca
             this.label15.AutoSize = true;
             this.label15.Location = new System.Drawing.Point(3, 130);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(215, 20);
+            this.label15.Size = new System.Drawing.Size(214, 20);
             this.label15.TabIndex = 3;
             this.label15.Text = "Selecionar Editora:";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -538,7 +543,7 @@ namespace Projeto_Biblioteca
             this.label16.AutoSize = true;
             this.label16.Location = new System.Drawing.Point(3, 170);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(215, 20);
+            this.label16.Size = new System.Drawing.Size(214, 20);
             this.label16.TabIndex = 4;
             this.label16.Text = "Selecionar Autor:";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -549,7 +554,7 @@ namespace Projeto_Biblioteca
             this.label17.AutoSize = true;
             this.label17.Location = new System.Drawing.Point(3, 10);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(215, 20);
+            this.label17.Size = new System.Drawing.Size(214, 20);
             this.label17.TabIndex = 0;
             this.label17.Text = "Titulo do Livro:";
             this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -558,7 +563,7 @@ namespace Projeto_Biblioteca
             // 
             this.comboEditoraAdd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.comboEditoraAdd.FormattingEnabled = true;
-            this.comboEditoraAdd.Location = new System.Drawing.Point(224, 126);
+            this.comboEditoraAdd.Location = new System.Drawing.Point(223, 126);
             this.comboEditoraAdd.Name = "comboEditoraAdd";
             this.comboEditoraAdd.Size = new System.Drawing.Size(362, 28);
             this.comboEditoraAdd.TabIndex = 5;
@@ -567,7 +572,7 @@ namespace Projeto_Biblioteca
             // 
             this.comboAutorAdd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.comboAutorAdd.FormattingEnabled = true;
-            this.comboAutorAdd.Location = new System.Drawing.Point(224, 166);
+            this.comboAutorAdd.Location = new System.Drawing.Point(223, 166);
             this.comboAutorAdd.Name = "comboAutorAdd";
             this.comboAutorAdd.Size = new System.Drawing.Size(362, 28);
             this.comboAutorAdd.TabIndex = 6;
@@ -575,7 +580,8 @@ namespace Projeto_Biblioteca
             // txtTituloAdd
             // 
             this.txtTituloAdd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtTituloAdd.Location = new System.Drawing.Point(224, 7);
+            this.txtTituloAdd.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtTituloAdd.Location = new System.Drawing.Point(223, 7);
             this.txtTituloAdd.Name = "txtTituloAdd";
             this.txtTituloAdd.Size = new System.Drawing.Size(362, 26);
             this.txtTituloAdd.TabIndex = 7;
@@ -583,7 +589,8 @@ namespace Projeto_Biblioteca
             // txtIsbnAdd
             // 
             this.txtIsbnAdd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtIsbnAdd.Location = new System.Drawing.Point(224, 47);
+            this.txtIsbnAdd.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtIsbnAdd.Location = new System.Drawing.Point(223, 47);
             this.txtIsbnAdd.Name = "txtIsbnAdd";
             this.txtIsbnAdd.Size = new System.Drawing.Size(362, 26);
             this.txtIsbnAdd.TabIndex = 8;
@@ -591,7 +598,8 @@ namespace Projeto_Biblioteca
             // txtLocalEdicaoAdd
             // 
             this.txtLocalEdicaoAdd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtLocalEdicaoAdd.Location = new System.Drawing.Point(224, 87);
+            this.txtLocalEdicaoAdd.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtLocalEdicaoAdd.Location = new System.Drawing.Point(223, 87);
             this.txtLocalEdicaoAdd.Name = "txtLocalEdicaoAdd";
             this.txtLocalEdicaoAdd.Size = new System.Drawing.Size(362, 26);
             this.txtLocalEdicaoAdd.TabIndex = 9;
@@ -605,20 +613,20 @@ namespace Projeto_Biblioteca
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel7.Controls.Add(this.btnAdicionarAdd, 2, 0);
             this.tableLayoutPanel7.Controls.Add(this.btnLimparAdd, 1, 0);
-            this.tableLayoutPanel7.Location = new System.Drawing.Point(224, 243);
+            this.tableLayoutPanel7.Location = new System.Drawing.Point(223, 243);
             this.tableLayoutPanel7.Name = "tableLayoutPanel7";
             this.tableLayoutPanel7.RowCount = 1;
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel7.Size = new System.Drawing.Size(362, 44);
+            this.tableLayoutPanel7.Size = new System.Drawing.Size(362, 43);
             this.tableLayoutPanel7.TabIndex = 11;
             // 
             // btnAdicionarAdd
             // 
             this.btnAdicionarAdd.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnAdicionarAdd.AutoSize = true;
-            this.btnAdicionarAdd.Location = new System.Drawing.Point(258, 7);
+            this.btnAdicionarAdd.Location = new System.Drawing.Point(243, 3);
             this.btnAdicionarAdd.Name = "btnAdicionarAdd";
-            this.btnAdicionarAdd.Size = new System.Drawing.Size(85, 30);
+            this.btnAdicionarAdd.Size = new System.Drawing.Size(116, 37);
             this.btnAdicionarAdd.TabIndex = 10;
             this.btnAdicionarAdd.Text = "Adicionar";
             this.btnAdicionarAdd.UseVisualStyleBackColor = true;
@@ -628,9 +636,9 @@ namespace Projeto_Biblioteca
             // 
             this.btnLimparAdd.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnLimparAdd.AutoSize = true;
-            this.btnLimparAdd.Location = new System.Drawing.Point(137, 7);
+            this.btnLimparAdd.Location = new System.Drawing.Point(130, 3);
             this.btnLimparAdd.Name = "btnLimparAdd";
-            this.btnLimparAdd.Size = new System.Drawing.Size(85, 30);
+            this.btnLimparAdd.Size = new System.Drawing.Size(100, 37);
             this.btnLimparAdd.TabIndex = 11;
             this.btnLimparAdd.Text = "Limpar";
             this.btnLimparAdd.UseVisualStyleBackColor = true;
@@ -640,10 +648,11 @@ namespace Projeto_Biblioteca
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(72)))), ((int)(((byte)(72)))));
+            this.ClientSize = new System.Drawing.Size(800, 449);
             this.Controls.Add(this.panel1);
             this.Name = "GestCatalogos";
-            this.Text = "GestCatalogos";
+            this.Text = "The Library - Gestão de Catálogos";
             this.Load += new System.EventHandler(this.GestCatalogos_Load);
             this.panel1.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);

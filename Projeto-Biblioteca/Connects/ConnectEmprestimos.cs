@@ -90,7 +90,7 @@ namespace Projeto_Biblioteca.Connects
         {
             string cmdGetNomeDataEmprestimo = "SELECT a.nome, e.data FROM associado a" +
                                             " INNER JOIN emprestimo e ON e.cod_associado = a.cod" +
-                                            " WHERE a.nome LIKE @nome";
+                                            " WHERE a.nome LIKE @nome ORDER BY e.data, a.nome";
             string pesquisaAssociado = conectaBD.compilaPesquisa(nomeAssociado);
 
             using(SqlConnection conexao = conectaBD.AbrirConexao())

@@ -27,7 +27,7 @@ namespace Projeto_Biblioteca
         {
             string pesquisa = txtPesquisaNome.Text;
 
-            List<string> lista = conectaBD.PesquisaLista("SELECT nome FROM associado WHERE nome LIKE @nome", "nome",pesquisa);
+            List<string> lista = conectaBD.PesquisaLista("SELECT nome FROM associado WHERE nome LIKE @nome ORDER BY nome", "nome",pesquisa);
             listNomeAssociado.DataSource = lista;
         }
 
@@ -83,6 +83,17 @@ namespace Projeto_Biblioteca
             string retorno = conectaAssociado.AtualizarAssociado(associado, cod);
 
             MessageBox.Show(retorno, "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void txtPesquisaNome_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                if (this.AcceptButton == null)
+                {
+                    this.btnPesquisaNomeAssociado.PerformClick();
+                }
+            }
         }
     }
 }

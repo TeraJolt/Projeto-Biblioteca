@@ -29,7 +29,7 @@ namespace Projeto_Biblioteca
         private void btnPesquisaNomeAssociado_Click(object sender, EventArgs e)
         {
             string nomeInserido = txtNomeAssociado.Text;
-            List<string> resultados = conectaBD.PesquisaLista("SELECT nome FROM associado WHERE nome LIKE @nome","nome",nomeInserido);
+            List<string> resultados = conectaBD.PesquisaLista("SELECT nome FROM associado WHERE nome LIKE @nome ORDER BY nome","nome",nomeInserido);
             listNomeAssociado.DataSource = resultados;           
         }
 

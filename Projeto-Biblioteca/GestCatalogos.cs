@@ -26,7 +26,7 @@ namespace Projeto_Biblioteca
         private void btnPesquisaTituloLivro_Click(object sender, EventArgs e)
         {
             string tituloLivro = txtTituloLivro.Text;
-            listTituloLivro.DataSource = conectaBD.PesquisaLista("SELECT titulo FROM livros WHERE titulo LIKE @titulo", "titulo", tituloLivro);
+            listTituloLivro.DataSource = conectaBD.PesquisaLista("SELECT titulo FROM livros WHERE titulo LIKE @titulo ORDER BY titulo", "titulo", tituloLivro);
         }
 
         private void listTituloLivro_SelectedIndexChanged(object sender, EventArgs e)
@@ -82,6 +82,11 @@ namespace Projeto_Biblioteca
             string retorno = catalogosService.AdicionarLivro(livro);
 
             MessageBox.Show(retorno,"Informação!",MessageBoxButtons.OK,MessageBoxIcon.Information);
+        }
+
+        private void txtTituloLivro_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
